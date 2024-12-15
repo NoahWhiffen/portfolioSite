@@ -1,0 +1,122 @@
+<!-- Title:  Portfolio Site - Final Sprint, Term 2
+     Author: Noah Whiffen - SD 12
+     Dates:  December 9th, 2024 - ? -->
+
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Noah Whiffen</title>
+         <link rel="stylesheet" href="styles/index.css">
+         <link rel="stylesheet" href="styles/nav-footer.css">
+         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+     </head>
+     <body>
+         <!-- Header for navigation links -->
+         <header>
+             <nav>
+                 <a href="index.html" class="nav-links">Home</a>
+                 <a href="projects.html" class="nav-links">Projects</a>
+                 <a href="services.html" class="nav-links">Services</a>
+                 <a href="about.html" class="nav-links">About Me</a>
+             </nav>
+         </header>
+     
+         <!-- Main content area -->
+         <main>
+             <div class="wrapper">
+                 <!-- Contact Card Section -->
+                 <aside class="contactCard">
+                     <img class="myPhoto" src="images/me.jpg" alt="Photo of Noah Whiffen">
+                     <h1>Noah Whiffen</h1>
+                     <p>Software Developer<br>Web Developer</p>
+                     <button class="contact-button">Contact me</button>
+                     <div class="socialContainer">
+                         <a href="https://www.linkedin.com/in/noah-w-307642329/">
+                             <img src="images/linkedin-square-icon.png" alt="LinkedIn Icon" class="socialIcons">
+                         </a>
+                         <a href="https://github.com/NoahWhiffen?tab=repositories">
+                             <img src="images/github-icon.png" alt="GitHub Icon" class="socialIcons">
+                         </a>
+                         <a href="#">
+                             <img src="images/black-instagram-icon.png" alt="Instagram Icon" class="socialIcons">
+                         </a>
+                     </div>
+                 </aside>
+     
+                <!-- Modal Form -->
+                <div id="contactModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <h2>Contact Me</h2>
+                        <form id="contactForm">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required><br><br>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br><br>
+
+                            <label for="message">Message:</label><br>
+                            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                 <!-- Content with skills icons -->
+                 <section class="contentContainer">
+                    <h2>Languages and Frameworks:</h2>
+                    <div class="icon-container">
+                        <a href="#" class="icon-links">
+                            <img src="images/python-icon.png" alt="Python Icon" class="icon-images">
+                            <span class="tooltip-text">Python</span> <!-- To create text when hovering over icons -->
+                        </a>
+                    </div>
+                    <div class="icon-container">
+                        <a href="#" class="icon-links">
+                            <img src="images/flask-logo-icon.png" alt="Flask Icon" class="icon-images">
+                            <span class="tooltip-text">Flask</span>
+                        </a>
+                    </div>
+                    <div class="icon-container">
+                        <a href="#" class="icon-links">
+                            <img src="images/html-icon.png" alt="HTML Icon" class="icon-images">
+                            <span class="tooltip-text">HTML</span>
+                        </a>
+                    </div>
+                    <div class="icon-container">
+                        <a href="#" class="icon-links">
+                            <img src="images/css-icon.png" alt="CSS Icon" class="icon-images">
+                            <span class="tooltip-text">CSS</span>
+                        </a>
+                    </div>
+                    <div class="icon-container">
+                        <a href="#" class="icon-links">
+                            <img src="images/js-icon.png" alt="JavaScript Icon" class="icon-images">
+                            <span class="tooltip-text">JavaScript</span>
+                        </a>
+                    </div>
+                    <div class="icon-container">
+                        <a href="#" class="icon-links">
+                            <img src="images/react-js-icon.png" alt="React Icon" class="icon-images">
+                            <span class="tooltip-text">React</span>
+                        </a>
+                    </div>
+                </section>
+             </div>
+         </main>
+     
+         <!-- Footer for copyright and links -->
+         <footer>
+             <p class="left-footer">&copy; Noah Whiffen - December 2024. All rights reserved</p>
+             <div class="center-footer">
+                 <a href="#" class="footer-links">Terms and Conditions</a>
+                 <a href="#" class="footer-links">Service Agreement</a>
+             </div>
+             <p class="right-footer">Icons from: <a href="https://uxwing.com/">uxwing.com</a></p>
+         </footer>
+         <script src="script.js"></script>
+     </body>
+     </html>
