@@ -1,19 +1,33 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 20px;
+    height: 75px;
+    width: 100%;
+    font-family: 'Lora', serif;
+}
+
+.site-title {
+    font-size: 3rem;
+    color: black;
+    margin: 0;
+    margin-left: 100px;
+}
 
 nav {
-    background-color: white;
-    color: black;
-    width: 100%;
-    height: 75px;
     display: flex;
     justify-content: flex-end;
-    font-family: 'Lora', serif;
+    align-items: center;
+    font-size: 1.75rem;
 }
 
 .nav-links {
     text-decoration: none;
     color: black;
-    font-size: 1.75rem;
     margin: 25px;
+    transition: transform 0.3s ease;
 }
 
 .nav-links:hover {
@@ -21,7 +35,7 @@ nav {
 }
 
 footer {
-    background-color: rgb(233, 233, 233);
+    background-color: white;
     font-family: 'Space Mono', monospace;
     font-size: 16px;
     display: flex;
