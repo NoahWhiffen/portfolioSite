@@ -23,24 +23,28 @@ section {
 
 .appContainer {
     display: flex;
+    flex-direction: column;
     width: 600px;
-    height: 500px;
+    height: 700px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 2.0);
-    justify-content: center;
     align-items: center;
     margin: 10px;
     border-radius: 15px;
     flex-shrink: 0;
 }
 
+.appContainer p {
+    margin: 15px;
+}
+
 .projectImages {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 60%;
     object-fit: contain;
 }
 
 .appContainer:nth-child(odd) {
-    background-color: rgb(218, 218, 218);
+    background-color: #FFF5EE;
 }
 
 .appContainer:nth-child(even) {
