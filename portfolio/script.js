@@ -1,10 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Open the modal when the "Contact me" button is clicked
+    // Modal functionality (existing code)
     function openModal() {
         document.getElementById("contactModal").style.display = "block";
     }
 
-    // Close the modal when the user clicks on <span> (x)
     function closeModal() {
         document.getElementById("contactModal").style.display = "none";
     }
@@ -36,4 +35,10 @@ document.addEventListener("DOMContentLoaded", function() {
             closeModal();
         }
     });
+
 });
+
+// Function to navigate to GitHub repository
+function goToGithub(url) {
+    window.open(url, '_blank');
+}
