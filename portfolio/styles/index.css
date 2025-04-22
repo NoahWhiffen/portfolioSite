@@ -50,14 +50,14 @@
     height: 80px;
     margin-left: 15px;
     margin-top: 15px;
-    background-color: #f7d634;
+    background-color: #4CAF50;
     border: solid 1px black;
     border-radius: 25px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .contact-button:hover {
-    background-color: #c9c900;
+    background-color: #45a049;
     cursor: pointer;
     transform: scale(1.15);
 }
@@ -155,10 +155,12 @@ form button:hover {
 }
 
 .contentContainer p {
-    font-family: "Laro", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 32px;
-    width: 100%;
-    background-color: #4CAF50;
+    width: 50vw;
+    height: 150px;
+    text-align: center;
+    grid-column: 2;
 }
 
 .icon-container {

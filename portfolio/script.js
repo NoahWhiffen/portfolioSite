@@ -60,11 +60,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// === GitHub Navigation ===
-function goToGithub(url) {
-    window.open(url, '_blank');
-}
-
 // === Scroll Handlers (global so inline HTML can use them too) ===
 function scrollLeft(section) {
     const wrapper = document.getElementById(section);

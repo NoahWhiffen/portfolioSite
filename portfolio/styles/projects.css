@@ -1,7 +1,6 @@
 section {
     position: relative;
 }
-
 .appWrapper {
     display: flex;
     overflow-x: auto;
@@ -25,37 +24,41 @@ section {
     display: flex;
     flex-direction: column;
     width: 600px;
-    height: 700px;
+    height: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 2.0);
     align-items: center;
     margin: 10px;
     border-radius: 15px;
     flex-shrink: 0;
+    background-color: rgb(210, 220, 224);
+    /* background-color: #FFF5EE; */
 }
 
 .appContainer p {
     margin: 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
 }
 
 .projectImages {
     width: 70%;
-    height: 60%;
+    height: 50%;
     object-fit: contain;
 }
 
-.appContainer:nth-child(odd) {
+/* .appContainer:nth-child(odd) {
     background-color: #FFF5EE;
 }
 
 .appContainer:nth-child(even) {
     background-color: #a09e9e;
-}
+} */
 
 .scrollButton {
     position: absolute;
     top: 50%;
     font-size: 2rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.541);
     color: white;
     border: none;
     border-radius: 50%;
@@ -82,4 +85,22 @@ section {
 }
 .scrollButton.right {
     right: 10px;
+}
+
+.projectLinks {
+    font-size: 2rem;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    margin: 35px;
+    background-color: #babae4;
+    border: solid 1px black;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.projectLinks:hover {
+    background-color: #45a049;
+    cursor: pointer;
+    transform: scale(1.15);
 }
