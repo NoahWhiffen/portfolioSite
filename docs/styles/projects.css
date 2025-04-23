@@ -26,46 +26,56 @@ section {
     display: flex;
     flex-direction: column;
     width: 700px;
-    height: 625px;
+    height: 675px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 2.0);
     align-items: center;
     margin: 10px;
+    padding-bottom: 25px;
     border-radius: 15px;
     flex-shrink: 0;
-    background-color: rgb(218, 218, 218);
+    background-color: #FFF5EE;
     /* background-color: rgb(210, 220, 224); */
     /* background-color: #FFF5EE; */
 }
 
 .appContainer p {
-    margin: 15px;
-    font-family: "Roboto", sans-serif;
+    margin: auto;
+    width: 90%;
+    font-family: "Lora", sans-serif;
     font-size: 24px;
 }
 
 .appContainer h3 {
     font-size: 32px;
-    font-family: 'Lora', serif;
+    font-family: 'Lora', sans-serif;
     color: #f7d634;
     text-align: center;
-    margin: 10px 0;
+    margin: 15px 0;
     grid-column: auto;
 }
 
+.project-tools {
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.project-tools ul {
+    display: flex;
+    flex-direction:  row;
+    gap: 35px;
+    padding: 0;
+    justify-content: center;
+    list-style-position: inside;
+}
+
 .projectImages {
-    width: 90%;
+    width: 95%;
     height: 50%;
     object-fit: cover;
+    border-radius: 15px;
     
 }
-
-/* .appContainer:nth-child(odd) {
-    background-color: #FFF5EE;
-}
-
-.appContainer:nth-child(even) {
-    background-color: #a09e9e;
-} */
 
 .scrollButton {
     position: absolute;
@@ -108,7 +118,8 @@ section {
     width: 60%;
     height: 60px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    background-color: rgb(218, 218, 218);
     /* background-color: #babae4; */
     border: solid 1px black;
     border-radius: 25px;

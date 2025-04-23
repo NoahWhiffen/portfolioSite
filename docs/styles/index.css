@@ -155,12 +155,13 @@ form button:hover {
 }
 
 .contentContainer p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', sans-serif;
     font-size: 32px;
     width: 50vw;
     height: 150px;
     text-align: center;
     grid-column: 2;
+    margin: 15px;
 }
 
 .icon-container {

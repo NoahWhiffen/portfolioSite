@@ -13,183 +13,244 @@
 </head>
 <body>
     <!-- Header for navigation links -->
-        <header class="main-header">
-            <h1 class="site-title">Noah Whiffen</h1>
-            <nav>
-                <a href="index.html" class="nav-links">Home</a>
-                <a href="projects.html" class="nav-links">Projects</a>
-                <a href="services.html" class="nav-links">Services</a>
-                <a href="about.html" class="nav-links">About Me</a>
-            </nav>
-        </header>
-<!-- Main content area -->
-<main>
-    <section>
-        <h2>My Projects</h2>
-    </section>
-    <!-- Coding Projects -->
-    <section>
-        <div class="scrollButton left" onclick="scrollLeft('coding-projects')">❮</div>
-        <div class="appWrapper" id="coding-projects">
+    <header class="main-header">
+        <h1 class="site-title">Noah Whiffen</h1>
+        <nav>
+            <a href="index.html" class="nav-links">Home</a>
+            <a href="projects.html" class="nav-links">Projects</a>
+            <a href="services.html" class="nav-links">Services</a>
+            <a href="about.html" class="nav-links">About Me</a>
+        </nav>
+    </header>
 
-            <div class="appContainer">
-                <h3>Password Strength Checker</h3>
-                <img 
-                    src="images/Projects/passwordChecker.png" 
-                    class="projectImages"
-                    alt="Password Strength Checker">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Vel tenetur soluta, amet quaerat illo, optio necessitatibus voluptatum 
-                </p>
-                <p>List tools used here</p>
-                <a class="projectLinks">
-                    View Project
-                </a>
-            </div>
-            <div class="appContainer">
-                <h3>Pay Calculator</h3>
-                <img 
-                    src="images/Projects/PayCalculator.png" 
-                    class="projectImages"
-                    alt="Pay Calculator">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Vel tenetur soluta, amet quaerat illo, optio necessitatibus voluptatum 
-                </p>
-                <p>List tools used here</p>
-                <a class="projectLinks">
-                    View Project
-                </a>
-            </div>
-            <div class="appContainer">
-                <h3>CLI Menu Application</h3>
-                <img 
-                    src="images/Projects/PythonMenu.png"
-                    class="projectImages"
-                    alt="Python Menu">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Vel tenetur soluta, amet quaerat illo, optio necessitatibus voluptatum 
-                </p>
-                <p>List tools used here</p>
-                <a class="projectLinks">
-                    View Project
-                </a>
-            </div>
-            <div class="appContainer">
-                <h3>One Stop Insurance Company</h3>
-                <img 
-                    src="images/Projects/OneStopInsurance.png" 
-                    class="projectImages"
-                    alt="CLI Yacht Club Invoice App">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Vel tenetur soluta, amet quaerat illo, optio necessitatibus voluptatum 
-                </p>
-                <p>List tools used here</p>
-                <a class="projectLinks">
-                    View Project
-                </a>
-            </div>
-            <div class="appContainer">
-                <h3>Conference Manager</h3>
-                <img 
-                    src="images/Projects/conferenceManager.png" 
-                    class="projectImages"
-                    alt="Conference Management App">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Vel tenetur soluta, amet quaerat illo, optio necessitatibus voluptatum 
-                </p>
-                <p>List tools used here</p>
-                <a class="projectLinks">
-                    View Project
-                </a>
-            </div>
+    <!-- Main content area -->
+    <main>
+        <section>
+            <h2>My Projects</h2>
+        </section>
 
-        </div>
-        <div class="scrollButton right" onclick="scrollRight('coding-projects')">❯</div>
-    </section>
+        <!-- Coding Projects -->
+        <section>
+            <div class="scrollButton left" onclick="scrollLeft('coding-projects')">❮</div>
+            <div class="appWrapper" id="coding-projects">
 
-    <!-- Web Dev Projects -->
-    <section>
-        <div class="scrollButton left" onclick="scrollLeft('web-dev-projects')">❮</div>
-        <div class="appWrapper" id="web-dev-projects">
-            
-            <!-- Frontend Projects -->
-            <div class="appContainer">
-                <h3>Live WebSocket Chat</h3>
-                <img 
-                    src="images/Projects/SocketChat.png"
-                    class="projectImages"
-                    alt="Event Management App">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Vel tenetur soluta, amet quaerat illo, optio necessitatibus voluptatum 
-                </p>
-                <p>List tools used here</p>
-                <a class="projectLinks">
-                    View Project
-                </a>
-            </div>
-            <div class="appContainer">
-                <h3>Genealogy Website</h3>
-                <img 
-                    src="images/Projects/whiffenGene.png" 
-                    class="projectImages"
-                    alt="Genealogy Website">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Vel tenetur soluta, amet quaerat illo, optio necessitatibus voluptatum 
-                </p>
-                <p>List tools used here</p>
-                <a class="projectLinks">
-                    View Project
-                </a>
-            </div>
-            <div class="appContainer">
-                <h3>Dog Image API</h3>
-                <img 
-                    src="images/Projects/dogApi.png" 
-                    class="projectImages"
-                    alt="Dog API App">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Vel tenetur soluta, amet quaerat illo, optio necessitatibus voluptatum 
-                </p>
-                <p>List tools used here</p>
-                <a class="projectLinks">
-                    View Project
-                </a>
-            </div>
+                <!--Password Strength Checker-->
+                <div class="appContainer">
+                    <h3>Password Strength Checker</h3>
+                    <img src="images/Projects/passwordChecker.png" class="projectImages" alt="Password Strength Checker">
+                    <p>
+                        A simple GUI to validate the strength of your password by checking a list
+                        of common passwords and other criteria.
+                    </p>
+                    <div class="project-tools">
+                        <ul>
+                            <li>Python</li>
+                            <li>Tkinter</li>
+                        </ul>
+                    </div>
+                    <a class="projectLinks">View Project</a>
+                </div>
+                
+                <!--Pay Calculator-->
+                <div class="appContainer">
+                    <h3>Pay Calculator</h3>
+                    <img src="images/Projects/PayCalculator.png" class="projectImages" alt="Pay Calculator">
+                    <p>
+                        A simple GUI to calculate a net pay rate when employee's rate of pay
+                        and hours worked are entered. My first ever project!
+                    </p>
+                    <div class="project-tools">
+                        <ul>
+                            <li>Python</li>
+                            <li>Tkinter</li>
+                        </ul>
+                    </div>
+                    <a class="projectLinks">View Project</a>
+                </div>
 
-            <div class="appContainer">
-                <h3>To Do List App</h3>
-                <img 
-                    src="images/Projects/ToDoApp.png" 
-                    class="projectImages"
-                    alt="Conference Management App">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Vel tenetur soluta, amet quaerat illo, optio necessitatibus voluptatum 
-                </p>
-                <p>List tools used here</p>
-                <a class="projectLinks">
-                    View Project
-                </a>
-            </div>
-            <div class="appContainer">
-                <h3>Math Competition App</h3>
-                <img 
-                    src="images/Projects/mathCompetition.png" 
-                    class="projectImages"
-                    alt="Math Competition App">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Vel tenetur soluta, amet quaerat illo, optio necessitatibus voluptatum 
-                </p>
-                <p>List tools used here</p>
-                <a class="projectLinks">
-                    View Project
-                </a>
-            </div>
-        </div>
-        <div class="scrollButton right" onclick="scrollRight('web-dev-projects')">❯</div>
-    </section>
-</main>
+                <!--Bitcoin Price Tracker-->
+                <div class="appContainer">
+                    <h3>Bitcoin Price Tracker</h3>
+                    <img src="images/Projects/bitcoinTracker.png" class="projectImages" alt="Bitcoin Price Tracker">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Vel tenetur soluta, amet quaerat illo, optio necessitatibus voluptatum 
+                    </p>
+                    <div class="project-tools">
+                        <ul>
+                            <li>Python</li>
+                            <li>Tkinter</li>
+                        </ul>
+                    </div>
+                    <a class="projectLinks">View Project</a>
+                </div>                
 
-    <!-- Footer for copyright and links -->
+                <!--CLI Menu App-->
+                <div class="appContainer">
+                    <h3>CLI Menu Application</h3>
+                    <img src="images/Projects/PythonMenu.png" class="projectImages" alt="Python Menu App">
+                    <p>
+                        A comprehensive menu application that runs 5 different programs based on user input.
+                    </p>
+                    <div class="project-tools">
+                        <ul>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    <a class="projectLinks">View Project</a>
+                </div>
+
+                <!--Insurance Company App-->
+                <div class="appContainer">
+                    <h3>One Stop Insurance Company</h3>
+                    <img src="images/Projects/OneStopInsurance.png" class="projectImages" alt="Insurance Company App">
+                    <p>
+                        An application that generates invoices for an insurance company.
+                    </p>
+                    <div class="project-tools">
+                        <ul>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    <a class="projectLinks">View Project</a>
+                </div>
+
+                <!--Conference Management App-->
+                <div class="appContainer">
+                    <h3>Conference Manager</h3>
+                    <img src="images/Projects/conferenceManager.png" class="projectImages" alt="Conference Management App">
+                    <p>
+                        A CLI app to manage conference information (speakers, topics, etc) 
+                        using PostGreSQL queries .
+                    </p>
+                    <div class="project-tools">
+                        <ul>
+                            <li>Javascript</li>
+                            <li>Node.js</li>
+                            <li>PostGreSQL</li>
+                        </ul>
+                    </div>
+                    <a class="projectLinks">View Project</a>
+                </div>
+
+            </div>
+            <div class="scrollButton right" onclick="scrollRight('coding-projects')">❯</div>
+        </section>
+
+        <section>
+            <div class="scrollButton left" onclick="scrollLeft('web-dev-projects')">❮</div>
+            <div class="appWrapper" id="web-dev-projects">
+                <!--Websocket Chat-->
+                <div class="appContainer">
+                    <h3>Live WebSocket Chat</h3>
+                    <img src="images/Projects/SocketChat.png" class="projectImages" alt="Event Management App">
+                    <p>
+                        A live chat application that requires login and stores user credentials and messages in
+                        a database.
+                    </p>
+                    <div class="project-tools">
+                        <ul>
+                            <li>Javascript</li>
+                            <li>Node.js</li>
+                        </ul>
+                        <ul>
+                            <li>Express.js</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                    <a class="projectLinks">View Project</a>
+                </div>
+
+                <!--Genealogy Page-->
+                <div class="appContainer">
+                    <h3>Genealogy Website</h3>
+                    <img src="images/Projects/whiffenGene.png" class="projectImages" alt="Genealogy Website">
+                    <p>
+                        A simple webpage intended to be used for my genealogy research.
+                    </p>
+                    <div class="project-tools">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <a class="projectLinks">View Project</a>
+                </div>
+
+                <!-- Dog API App-->
+                <div class="appContainer">
+                    <h3>Dog Image API</h3>
+                    <img src="images/Projects/dogApi.png" class="projectImages" alt="Dog API App">
+                    <p>
+                        An application which pulls dog images from an API based on selected breed and desired
+                        number of images.
+                    </p>
+                    <div class="project-tools">
+                        <ul>
+                            <li>Javascript</li>
+                            <li>React</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <a class="projectLinks">View Project</a>
+                </div>
+
+
+
+                <!--To Do App-->
+                <div class="appContainer">
+                    <h3>To-Do List App</h3>
+                    <img src="images/Projects/ToDoApp.png" class="projectImages" alt="To Do App">
+                    <p>
+                        A to-do list app that allows the user to keep track of tasks.
+                    </p>
+                    <div class="project-tools">
+                        <ul>
+                            <li>Javascript</li>
+                            <li>React</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <a class="projectLinks">View Project</a>
+                </div>
+
+                <!--Gym Management App-->
+                <div class="appContainer">
+                    <h3>Gym Management App</h3>
+                    <img src="images/Projects/GymManagement.png" class="projectImages" alt="Gym Management System">
+                    <p>
+                        A CLI app to manage a gyms customers and employees and store necessary data in a database.
+                    </p>
+                    <div class="project-tools">
+                        <ul>
+                            <li>Java</li>
+                            <li>PostGreSQL</li>
+                        </ul>
+                    </div>
+                    <a class="projectLinks">View Project</a>
+                </div>
+
+                <!--Math Competition App-->
+                <div class="appContainer">
+                    <h3>Math Competition App</h3>
+                    <img src="images/Projects/mathCompetition.png" class="projectImages" alt="Math Competition App">
+                    <p>
+                        An express app that generates random math questions for the user to answer and keeps track of high scores.
+                    </p>
+                    <div class="project-tools">
+                        <ul>
+                            <li>Javascript</li>
+                            <li>Express.js</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <a class="projectLinks">View Project</a>
+                </div>
+            </div>
+            <div class="scrollButton right" onclick="scrollRight('web-dev-projects')">❯</div>
+        </section>
+    </main>
+
+    <!-- Footer -->
     <footer>
         <p class="left-footer">&copy; Noah Whiffen - December 2024. All rights &nbsp;&nbsp;reserved</p>
         <div class="center-footer">
@@ -198,6 +259,7 @@
         </div>
         <p class="right-footer">Icons from: <a href="https://uxwing.com/" target="_blank">uxwing.com</a></p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

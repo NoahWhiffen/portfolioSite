@@ -65,7 +65,7 @@ function scrollLeft(section) {
     const wrapper = document.getElementById(section);
     if (wrapper) {
         wrapper.scrollBy({
-            left: -400,
+            left: -750,
             behavior: 'smooth'
         });
     }
@@ -75,7 +75,7 @@ function scrollRight(section) {
     const wrapper = document.getElementById(section);
     if (wrapper) {
         wrapper.scrollBy({
-            left: 400,
+            left: 750,
             behavior: 'smooth'
         });
     }
