@@ -171,7 +171,7 @@ footer a:hover {
     }
 
     footer a {
-        margin: 10px 0;
+        margin: 10px;
         color: black;
         display: inline-block;
         transition: transform 0.3s ease;

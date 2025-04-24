@@ -294,4 +294,8 @@ form button:hover {
         width: 90%;
         padding: 10px;
     }
+
+    .modal {
+        background-color: transparent;
+    }
 }
