@@ -142,7 +142,7 @@ section {
     transform: scale(1.15);
 }
 
-/* Tablets (≤ 1024px) */
+/* ----------- Tablets (≤ 1024px) ----------- */
 @media (max-width: 1024px) {
     .appContainer {
         width: 500px;
@@ -180,17 +180,18 @@ section {
     }
 }
 
-/* ----------- Media Queries ----------- */
-
-/* Phones (≤ 600px) */
+/* ----------- Phones (≤ 600px) ----------- */
 @media (max-width: 600px) {
     .appWrapper {
+        flex-direction: column; /* ✅ Stack vertically */
         padding: 10px;
-        gap: 15px;
+        gap: 20px;
+        overflow-x: hidden;
+        align-items: center;
     }
 
     .appContainer {
-        width: 90vw;
+        width: 95vw; /* ✅ Responsive full width */
         height: auto;
     }
 
@@ -202,25 +203,28 @@ section {
         font-size: 16px;
     }
 
-    .project-tools {
-        font-size: 16px;
-    }
-
-    .project-tools ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .projectImages {
         height: 200px;
     }
 
-    .scrollButton {
-        display: none; /* Optional: hide arrows on smaller screens */
+    .project-tools {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .project-tools ul {
+        flex-direction: column; /* ✅ Stack tool list vertically */
+        align-items: center;
+        gap: 10px;
     }
 
     .projectLinks {
         font-size: 1.25rem;
         width: 90%;
+        height: auto;
+    }
+
+    .scrollButton {
+        display: none; /* ✅ Hide scroll arrows on small screens */
     }
 }

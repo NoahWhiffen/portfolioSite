@@ -1,4 +1,3 @@
-
 .wrapper {
     display: grid;
     grid-template-columns: 5% 95%;
@@ -229,6 +228,7 @@ form button:hover {
     object-fit: cover;
 }
 
+/* ----------- Media Queries ----------- */
 /* Tablets (≤ 1024px) */
 @media (max-width: 1024px) {
     .wrapper {
@@ -258,7 +258,7 @@ form button:hover {
     }
 
     .icon-container {
-        width: 20vw;
+        width: 30vw;
     }
 
     .website-images {
@@ -272,33 +272,46 @@ form button:hover {
     }
 }
 
-@media (max-width: 1024px) {
-    .contentContainer {
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-    }
-
-    .icon-container {
-        width: 30vw;
-    }
-}
-
-/* ----------- Media Queries ----------- */
-
+/* ----------- UPDATED Mobile (≤ 600px) ----------- */
 @media (max-width: 600px) {
-    .contentContainer {
-        grid-template-columns: 1fr;
-        padding: 0 10px;
-    }
-
-    .icon-container {
-        width: 80vw;
-        margin: 15px 0;
+    .wrapper {
+        display: block; /* ✅ Change grid to block for vertical flow */
+        width: 95%;
+        margin: 20px auto;
     }
 
     .contactCard {
         position: relative;
-        margin: 0 auto 20px auto;
+        margin: 0 auto 30px auto;
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .contentContainer {
+        display: flex;
+        flex-direction: column; /* ✅ Stack items vertically */
+        align-items: center;
+        gap: 20px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .contentContainer p {
+        font-size: 1.2rem;
+        width: 100%;
+        height: auto;
+        margin: 0 0 20px 0;
+    }
+
+    .icon-container {
+        width: 90%; /* ✅ Increase size on mobile */
+        margin: 15px 0;
+    }
+
+    .project-images,
+    .website-images {
+        width: 100%;
+        height: auto;
     }
 
     .modal-content {
