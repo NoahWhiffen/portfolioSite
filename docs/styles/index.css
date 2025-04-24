@@ -80,8 +80,8 @@
 
 .modal {
     display: none;
-    position: relative; 
-    z-index: 1;
+    position: fixed; 
+    z-index: 2000;
     left: 0;
     top: 0;
     width: 100%;
@@ -97,6 +97,7 @@
     border: 1px solid #888;
     width: 80%;
     max-width: 500px;
+    z-index: 2001;
 }
 
 .close {

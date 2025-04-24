@@ -171,6 +171,13 @@ footer a:hover {
     }
 
     footer a {
-        margin: 5px 0;
+        margin: 10px 0;
+        color: black;
+        display: inline-block;
+        transition: transform 0.3s ease;
+    }
+
+    footer a:hover {
+        transform: scale(1.15);
     }
 }
