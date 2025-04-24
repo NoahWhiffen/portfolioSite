@@ -80,7 +80,7 @@
 }
 
 .modal {
-    display: block;
+    display: none;
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -261,7 +261,6 @@ form button:hover {
     }
 
     .modal {
-        display: none !important;
         position: fixed !important;
         top: 0 !important;
         left: 0 !important;
