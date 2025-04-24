@@ -82,7 +82,6 @@ footer a:hover {
     transform: scale(1.15);
 }
 
-
 /* ----------- Media Queries ----------- */
 
 /* Tablets (768px and below) */
@@ -95,7 +94,7 @@ footer a:hover {
     nav {
         font-size: 1.5rem;
         justify-content: center;
-        width: 100%; /* Full width */
+        width: 100%;
         gap: 10px;
     }
 
@@ -103,7 +102,7 @@ footer a:hover {
         margin: 10px;
         white-space: nowrap;
     }
-    
+
     footer {
         font-size: 14px;
         flex-direction: column;
