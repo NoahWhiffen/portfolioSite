@@ -266,7 +266,7 @@ form button:hover {
         left: 0;
         width: 100vw;
         height: 100vh;
-        overflow-y: auto;
+        overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
         z-index: 99999 !important;
     }
