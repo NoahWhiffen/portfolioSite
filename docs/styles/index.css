@@ -260,6 +260,21 @@ form button:hover {
         margin: 20px auto;
     }
 
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        z-index: 99999 !important;
+    }
+
+    .modal-content {
+        margin: 20vh auto;
+    }
+
     .contactCard {
         position: relative;
         margin: 0 auto 30px auto;
