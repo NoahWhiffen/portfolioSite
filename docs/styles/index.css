@@ -261,7 +261,7 @@ form button:hover {
     }
 
     .modal {
-        display: block;
+        display: block !important;
         position: fixed;
         top: 0;
         left: 0;
