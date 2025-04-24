@@ -280,6 +280,7 @@ form button:hover {
         margin: 0 auto 30px auto;
         max-width: 90%;
         width: 100%;
+        z-index: 1;
     }
 
     .contentContainer {
