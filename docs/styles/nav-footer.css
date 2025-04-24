@@ -95,14 +95,15 @@ footer a:hover {
     nav {
         font-size: 1.5rem;
         justify-content: center;
-        width: 100%;
+        width: 100%; /* Full width */
+        gap: 10px;
     }
 
     .nav-links {
         margin: 10px;
-        white-space: nowrap; /* Prevents nav links from wrapping to the next line */
+        white-space: nowrap;
     }
-
+    
     footer {
         font-size: 14px;
         flex-direction: column;
@@ -138,24 +139,24 @@ footer a:hover {
     .site-title {
         font-size: 2rem;
         margin-left: 0;
-        text-align: center; /* Center the site title */
+        text-align: center;
     }
 
     nav {
         justify-content: center;
         font-size: 1.25rem;
         flex-wrap: wrap;
-        width: 100%; /* Full width for nav */
+        width: 100%;
     }
 
     .nav-links {
         margin: 10px;
-        white-space: nowrap; /* Prevent wrapping of nav items */
+        white-space: nowrap;
     }
 
     footer {
         font-size: 12px;
-        padding: 10px 20px; /* Adjust padding */
+        padding: 10px 20px;
     }
 
     .footer-content {
@@ -167,10 +168,10 @@ footer a:hover {
     .left-footer,
     .right-footer,
     .center-footer {
-        flex: unset; /* Reset flex properties */
+        flex: unset;
     }
 
     footer a {
-        margin: 5px 0; /* Adjust margin for footer links */
+        margin: 5px 0;
     }
 }

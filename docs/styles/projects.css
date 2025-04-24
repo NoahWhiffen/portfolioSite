@@ -183,16 +183,19 @@ section {
 /* ----------- Phones (≤ 600px) ----------- */
 @media (max-width: 600px) {
     .appWrapper {
-        flex-direction: column; /* ✅ Stack vertically */
-        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 20px;
-        overflow-x: hidden;
-        align-items: center;
+        width: 100%;
+        padding: 10px;
     }
 
     .appContainer {
-        width: 95vw; /* ✅ Responsive full width */
+        width: 90%;
         height: auto;
+        padding-bottom: 20px;
+        flex-shrink: 0;
+        box-shadow: none;
     }
 
     .appContainer h3 {
@@ -213,7 +216,7 @@ section {
     }
 
     .project-tools ul {
-        flex-direction: column; /* ✅ Stack tool list vertically */
+        flex-direction: column;
         align-items: center;
         gap: 10px;
     }
@@ -225,6 +228,6 @@ section {
     }
 
     .scrollButton {
-        display: none; /* ✅ Hide scroll arrows on small screens */
+        display: none;
     }
 }
