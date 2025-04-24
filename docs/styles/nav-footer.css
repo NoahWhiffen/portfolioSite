@@ -164,7 +164,12 @@ footer a:hover {
         text-align: center;
     }
 
-  
+    .left-footer,
+    .right-footer,
+    .center-footer {
+        flex: unset;
+    }
+
     footer a {
         margin: 10px;
         color: black;
