@@ -80,7 +80,7 @@
 
 .modal {
     display: none;
-    position: fixed; 
+    position: relative; 
     z-index: 1;
     left: 0;
     top: 0;
@@ -267,9 +267,10 @@ form button:hover {
 
     .contentContainer {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
-        gap: 20px;
+        justify-content: center;
+        gap: 10px 5%;
         margin-left: 0;
         margin-top: 20px;
     }
@@ -282,8 +283,8 @@ form button:hover {
     }
 
     .icon-container {
-        width: 40%;
-        margin: 15px 0;
+        width: 45%;
+        margin: 10px 0;
     }
 
     .icon-images {
