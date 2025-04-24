@@ -61,22 +61,39 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // === Scroll Handlers (global so inline HTML can use them too) ===
-function scrollLeft(section) {
+function scrollSectionLeft(section) {
     const wrapper = document.getElementById(section);
     if (wrapper) {
-        wrapper.scrollBy({
-            left: -750,
-            behavior: 'smooth'
-        });
+        if (wrapper.scrollLeft <= 0) {
+            wrapper.scrollTo({
+                left: wrapper.scrollWidth,
+                behavior: 'smooth'
+            });
+        } else {
+            wrapper.scrollBy({
+                left: -750,
+                behavior: 'smooth'
+            });
+        }
     }
 }
 
-function scrollRight(section) {
+function scrollSectionRight(section) {
     const wrapper = document.getElementById(section);
     if (wrapper) {
-        wrapper.scrollBy({
-            left: 750,
-            behavior: 'smooth'
-        });
+        const maxScrollLeft = wrapper.scrollWidth - wrapper.clientWidth;
+
+        if (wrapper.scrollLeft >= maxScrollLeft - 5) { // small buffer to account for rounding
+            wrapper.scrollTo({
+                left: 0,
+                behavior: 'smooth'
+            });
+        } else {
+            wrapper.scrollBy({
+                left: 750,
+                behavior: 'smooth'
+            });
+        }
     }
 }
+
