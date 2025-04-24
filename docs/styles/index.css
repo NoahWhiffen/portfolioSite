@@ -80,7 +80,7 @@
 
 .modal {
     display: none;
-    position: fixed; 
+    position: relative; 
     z-index: 2000;
     left: 0;
     top: 0;
@@ -293,9 +293,5 @@ form button:hover {
     .icon-images {
         width: 90%;
         padding: 10px;
-    }
-
-    .modal {
-        background-color: transparent;
     }
 }
