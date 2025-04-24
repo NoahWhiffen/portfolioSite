@@ -26,15 +26,18 @@ section {
     flex-direction: column;
     width: 700px;
     height: 675px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 2.0);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 2.0); */
     align-items: center;
     margin: 10px;
     padding-bottom: 25px;
     border-radius: 15px;
     flex-shrink: 0;
-    background: linear-gradient(135deg, #FFF9F4, #FFEEDD);
+    background: linear-gradient(135deg, #ffffff, #f4f4f4);
+    border: 2px solid black;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+    /* background: linear-gradient(135deg, #FFF9F4, #FFEEDD); */
     /* background: linear-gradient(135deg, #FFFCFA, #FFF0E8); */
-    border: 1px solid black;
+    
 }
 
 .appContainer p {
@@ -46,11 +49,17 @@ section {
 
 .appContainer h3 {
     font-size: 40px;
-    font-family: 'Lora', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-style: italic;
     color: #FFD700;
     text-align: center;
     margin: 15px 0;
     grid-column: auto;
+    text-shadow:         
+        -1.5px -1.5px 0 black,
+        1.5px -1.5px 0 black,
+        -1.5px  1.5px 0 black,
+        1.5px  1.5px 0 black;;
 }
 
 .project-tools {
@@ -131,4 +140,87 @@ section {
     background-color: #5c5c5c;
     cursor: pointer;
     transform: scale(1.15);
+}
+
+/* Tablets (≤ 1024px) */
+@media (max-width: 1024px) {
+    .appContainer {
+        width: 500px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .appContainer h3 {
+        font-size: 32px;
+    }
+
+    .appContainer p {
+        font-size: 20px;
+    }
+
+    .project-tools {
+        font-size: 20px;
+    }
+
+    .project-tools ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .projectLinks {
+        font-size: 1.5rem;
+        width: 70%;
+        height: auto;
+    }
+
+    .scrollButton {
+        font-size: 1.5rem;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* ----------- Media Queries ----------- */
+
+/* Phones (≤ 600px) */
+@media (max-width: 600px) {
+    .appWrapper {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .appContainer {
+        width: 90vw;
+        height: auto;
+    }
+
+    .appContainer h3 {
+        font-size: 24px;
+    }
+
+    .appContainer p {
+        font-size: 16px;
+    }
+
+    .project-tools {
+        font-size: 16px;
+    }
+
+    .project-tools ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectImages {
+        height: 200px;
+    }
+
+    .scrollButton {
+        display: none; /* Optional: hide arrows on smaller screens */
+    }
+
+    .projectLinks {
+        font-size: 1.25rem;
+        width: 90%;
+    }
 }

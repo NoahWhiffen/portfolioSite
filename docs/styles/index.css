@@ -228,3 +228,93 @@ form button:hover {
     height: 275px;
     object-fit: cover;
 }
+
+/* Tablets (≤ 1024px) */
+@media (max-width: 1024px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    .contactCard {
+        position: relative;
+        margin-left: 0;
+        margin-bottom: 20px;
+        grid-column: 1;
+    }
+
+    .contentContainer {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0;
+        grid-column: 1;
+    }
+
+    .contentContainer p {
+        font-size: 24px;
+        width: 80vw;
+        height: auto;
+        grid-column: span 2;
+    }
+
+    .icon-container {
+        width: 20vw;
+    }
+
+    .website-images {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-images {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contentContainer {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .icon-container {
+        width: 30vw;
+    }
+}
+
+/* ----------- Media Queries ----------- */
+
+@media (max-width: 600px) {
+    .contentContainer {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+    }
+
+    .icon-container {
+        width: 80vw;
+        margin: 15px 0;
+    }
+
+    .contactCard {
+        position: relative;
+        margin: 0 auto 20px auto;
+    }
+
+    .modal-content {
+        margin-top: 25%;
+    }
+
+    .site-title {
+        font-size: 1.75rem;
+    }
+
+    .main-header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        margin: 10px 0;
+    }
+}

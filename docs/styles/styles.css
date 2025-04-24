@@ -24,7 +24,7 @@ h2, h3 {
 h2 {
     font-size: 60px;
     font-family: 'Lora', serif;
-    color: #f7d634;
+    color: #FFD700;
     grid-column: 1 / -1;
     text-align: center;
     margin: 15px;
@@ -32,9 +32,43 @@ h2 {
 
 h3 {
     font-size: 36px;
-    font-family: 'Lora', serif;
-    color: #f7d634;
+    font-family: 'Space Mono', monospace;
+    color: #FFD700;
     text-align: center;
     grid-column: 1 / -1;
     margin: 15px;
+}
+
+/* ----------- Media Queries ----------- */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 42px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    body {
+        gap: 15px;
+        padding: 10px;
+    }
+}
+
+/* Phones (480px and below) */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    body {
+        gap: 10px;
+        padding: 10px;
+    }
 }

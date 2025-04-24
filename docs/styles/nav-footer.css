@@ -73,9 +73,79 @@ footer {
 footer a {
     margin: 0 10px;
     color: black;
+    display: inline-block;
+    transition: transform 0.3s ease;
     
 }
 
 footer a:hover {
     transform: scale(1.15);
+}
+
+
+/* ----------- Media Queries ----------- */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+    .site-title {
+        font-size: 2.25rem;
+        margin-left: 40px;
+    }
+
+    nav {
+        font-size: 1.5rem;
+    }
+
+    .nav-links {
+        margin: 15px;
+    }
+
+    footer {
+        font-size: 14px;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .left-footer,
+    .right-footer,
+    .center-footer {
+        text-align: center;
+        flex: unset;
+    }
+}
+
+/* Phones (480px and below) */
+@media (max-width: 480px) {
+    .main-header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .site-title {
+        font-size: 2rem;
+        margin-left: 0;
+    }
+
+    nav {
+        justify-content: center;
+        font-size: 1.25rem;
+        flex-wrap: wrap;
+    }
+
+    .nav-links {
+        margin: 10px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
 }
