@@ -80,7 +80,7 @@
 }
 
 .modal {
-    display: none;
+    display: block;
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -276,7 +276,7 @@ form button:hover {
     }
 
     .contactCard {
-        position: relative;
+        position: static;
         margin: 0 auto 30px auto;
         max-width: 90%;
         width: 100%;
