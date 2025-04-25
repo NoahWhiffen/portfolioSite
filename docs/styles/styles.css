@@ -6,8 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(26, 23, 23);
-    /* background: linear-gradient(135deg, #3f51b5, #a1c4fd); */
+    background: linear-gradient(135deg, #3f51b5, #a1c4fd);
     display: block;
     height: auto;
     gap: 20px;
