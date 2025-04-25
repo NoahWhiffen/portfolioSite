@@ -32,12 +32,13 @@ section {
     padding-bottom: 25px;
     border-radius: 15px;
     flex-shrink: 0;
-    background: linear-gradient(135deg, #ffffff, #f4f4f4);
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
+
+    /* background-color: white; */
     border: 2px solid black;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
     /* background: linear-gradient(135deg, #FFF9F4, #FFEEDD); */
-    /* background: linear-gradient(135deg, #FFFCFA, #FFF0E8); */
-    
+    /* background: linear-gradient(135deg, #FFFCFA, #FFF0E8); */ 
 }
 
 .appContainer p {
@@ -56,10 +57,10 @@ section {
     margin: 15px 0;
     grid-column: auto;
     text-shadow:         
-        -1.5px -1.5px 0 black,
-        1.5px -1.5px 0 black,
-        -1.5px  1.5px 0 black,
-        1.5px  1.5px 0 black;;
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px  1px 0 black,
+        1px  1px 0 black;;
 }
 
 .project-tools {
@@ -128,16 +129,17 @@ section {
     height: 60px;
     text-align: center;
     margin-top: 20px;
-    /* background-color: #F29C6E; */
-    background-color: #1E1E1E;
-    color: white;
+    /* background-color: #4CAF50; */
+    background-color: #5DBB63;
+    color: black;
     border: solid 1px black;
     border-radius: 25px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .projectLinks:hover {
-    background-color: #5c5c5c;
+    background-color: #45a049;
+    /* background-color: #5c5c5c; */
     cursor: pointer;
     transform: scale(1.15);
 }
