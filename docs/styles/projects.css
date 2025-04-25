@@ -122,7 +122,6 @@ section {
 }
 
 .projectLinks {
-    padding-bottom: 12px;
     font-size: 1.75rem;
     font-family: 'Space Mono', monospace;
     width: 50%;
@@ -205,6 +204,9 @@ section {
 
     .appContainer p {
         font-size: 16px;
+        width: 90%;
+        margin: 0 auto 15px auto;
+        text-align: center;
     }
 
     .projectImages {
