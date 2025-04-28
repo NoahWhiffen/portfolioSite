@@ -228,7 +228,7 @@ form button:hover {
 
     .contactCard {
         position: relative;
-        margin-left: 0;
+        margin: 0 auto;
         width: 90%;
         max-width: 350px;
         font-size: 1.2em;
@@ -236,15 +236,15 @@ form button:hover {
 
     .contentContainer {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: center;
-        margin-left: 50px;
+        margin-left: 0;
         gap: 20px;
     }
 
     .contentContainer p {
         font-size: 24px;
-        width: 90%;
+        width: 100%;
         margin: 10px 30px;
     }
 
