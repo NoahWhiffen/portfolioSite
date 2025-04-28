@@ -58,7 +58,7 @@
 
 .contact-button:hover {
     background-color: #45a049;
-    cursor: pointer;                                                                                                                                                                                                                                                        
+    cursor: pointer;
 }
 
 .socialContainer {
@@ -221,7 +221,7 @@ form button:hover {
 /* Tablets (≤ 1024px) */
 @media (max-width: 1024px) {
     .wrapper {
-        grid-template-columns: 1fr;
+        display: block;
         width: 90%;
         margin: 40px auto;
     }
@@ -231,25 +231,26 @@ form button:hover {
         margin: 0 auto 20px;
         width: 90%;
         max-width: 350px;
-        grid-column: 1;
+        font-size: 1.2em;
     }
 
     .contentContainer {
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
         margin-left: 0;
-        grid-column: 1;
+        gap: 20px;
     }
 
     .contentContainer p {
         font-size: 24px;
         width: 90%;
-        height: auto;
-        margin-bottom: ;
-        grid-column: span 2;
+        margin: 10px 0;
     }
 
     .icon-container {
-        width: 30vw;
+        width: 45%;
+        margin: 10px 0;
     }
 }
 
