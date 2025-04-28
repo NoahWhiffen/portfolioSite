@@ -61,7 +61,7 @@ section {
         -1.25px -1.25px 0 black,
         1.25px -1.25px 0 black,
         -1.25px  1.25px 0 black,
-        1.25px  1.25px 0 black;;
+        1.25px  1.25px 0 black;
 }
 
 .project-tools {
@@ -199,7 +199,7 @@ section {
     }
 
     .appContainer h3 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .appContainer p {

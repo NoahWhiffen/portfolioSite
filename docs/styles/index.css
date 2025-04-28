@@ -58,8 +58,7 @@
 
 .contact-button:hover {
     background-color: #45a049;
-    cursor: pointer;
-    transform: scale(1.15);
+    cursor: pointer;                                                                                                                                                                                                                                                        
 }
 
 .socialContainer {
@@ -229,8 +228,9 @@ form button:hover {
 
     .contactCard {
         position: relative;
-        margin-left: 0;
-        margin-bottom: 20px;
+        margin: 0 auto 20px;
+        width: 90%;
+        max-width: 350px;
         grid-column: 1;
     }
 
@@ -242,8 +242,9 @@ form button:hover {
 
     .contentContainer p {
         font-size: 24px;
-        width: 80vw;
+        width: 90%;
         height: auto;
+        margin-bottom: ;
         grid-column: span 2;
     }
 
