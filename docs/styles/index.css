@@ -218,8 +218,8 @@ form button:hover {
 }
 
 /* ----------- Media Queries ----------- */
-/* Tablets (≤ 1024px) */
-@media (max-width: 1024px) {
+/* Tablets (≤ 768px) */
+@media (max-width: 768px) {
     .wrapper {
         display: block;
         width: 90%;
@@ -238,11 +238,12 @@ form button:hover {
         flex-wrap: wrap;
         justify-content: center;
         margin-left: 0;
+        margin-bottom: 30px;
         gap: 20px;
     }
 
     .contentContainer p {
-        font-size: 24px;
+        font-size: 20px;
         width: 100%;
         margin: 10px 30px;
     }
