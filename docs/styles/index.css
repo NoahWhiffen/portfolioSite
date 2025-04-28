@@ -219,7 +219,7 @@ form button:hover {
 
 /* ----------- Media Queries ----------- */
 /* Tablets (≤ 768px) */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .wrapper {
         display: block;
         width: 90%;
