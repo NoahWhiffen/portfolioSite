@@ -227,8 +227,7 @@ form button:hover {
     }
 
     .contactCard {
-        position: relative;
-        margin: 0 auto;
+        margin-right: 30px;
         width: 90%;
         max-width: 350px;
         font-size: 1.2em;
