@@ -229,6 +229,7 @@ form button:hover {
 
     .contactCard {
         margin-right: 30px;
+        margin-left: 20px;
         width: 90%;
         max-width: 350px;
         font-size: 1.2em;
