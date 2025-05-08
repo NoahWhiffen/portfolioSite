@@ -418,7 +418,7 @@ form button:hover {
     }
 
     .contactCard p {
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
 
     .myPhoto {
@@ -442,10 +442,10 @@ form button:hover {
     }
 
     .contentContainer p {
-        font-size: 2rem;
+        font-size: 1.5rem;
         width: 100%;
         height: auto;
-        margin: 0 0 20px 0;
+        margin: auto;
     }
 
     .icon-container {
