@@ -242,18 +242,18 @@ form button:hover {
     }
 
     .contactCard p {
-        font-size: 1.5em;
+        font-size: 1.75em;
     }
 
     .myPhoto {
-        width: 55%;
-        height: 55%;
+        width: 70%;
+        height: 70%;
         margin-left: 50px;
     }
 
     .contact-button {
         font-size: 1.5rem;
-        height: 55px;
+        height: 65px;
     }
 
     .contentContainer {
@@ -263,7 +263,7 @@ form button:hover {
         margin-top: 20px;
         justify-items: center;
         margin-left: 40%;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     .contentContainer p {
