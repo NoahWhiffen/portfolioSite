@@ -50,7 +50,7 @@ h3 {
     h3 {
         font-size: 28px;
         margin: 15px;
-        margin-top: 25px;
+        /* margin-top: 15px; */
     }
 
     body {
@@ -58,6 +58,26 @@ h3 {
         padding: 10px;
     }
 }
+
+@media (max-width: 768px) and (orientation: portrait) {
+    h2 {
+        font-size: 38px;
+        margin-top: 20px;
+    }
+
+    h3 {
+        font-size: 26px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    body {
+        gap: 12px;
+        padding: 12px;
+    }
+
+}
+
 
 /* Phones (480px and below) */
 @media (max-width: 480px) {

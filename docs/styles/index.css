@@ -221,21 +221,40 @@ form button:hover {
 @media (min-width: 769px) {
     .wrapper {
         display: grid;
-        grid-template-columns: 5% 95%;
+        grid-template-columns: 10% 90%;
         column-gap: 1em;
         align-items: start;
         justify-content: center;
-        width: 80%;
+        width: 90%;
         max-width: 2000px;
         margin: 60px auto;
     }
 
     .contactCard {
         position: fixed;
-        margin-left: 100px;
-        bottom: 50px;
-        max-width: 350px;
-        font-size: 1.5em;
+        margin-left: 50px;
+        bottom: 120px;
+        top: 50px;
+        max-width: 325px;
+        height: 425px;
+        font-size: 1em;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .contactCard p {
+        font-size: 2em;
+    }
+
+    .myPhoto {
+        width: 60%;
+        height: 80%;
+        margin-left: 50px;
+    }
+
+    .contact-button {
+        font-size: 1.5rem;
+        height: 50px;
     }
 
     .contentContainer {
@@ -250,14 +269,14 @@ form button:hover {
 
     .contentContainer p {
         font-family: 'Space Mono', sans-serif;
-        font-size: 32px;
+        font-size: 28px;
         width: 50vw;
         text-align: center;
         color: white;
     }
 
     .icon-container {
-        width: 10vw;
+        width: 12vw;
         padding: 15px;
         margin: 25px;
         border-radius: 15px;
@@ -301,22 +320,23 @@ form button:hover {
 /* Portrait Tablets (<= 768px) */
 @media (max-width: 768px) and (orientation: portrait) {
     .contactCard {
-        max-width: 280px;
+        position: relative;
+        margin: 0 auto 30px auto;
+        width: 240px;
         font-size: 1.1em;
         padding: 10px;
     }
 
     .icon-container {
-        width: 40%;
+        width: 30%;
         padding: 10px;
         margin: 10px;
     }
 
     .contentContainer p {
-        font-size: 1.3rem;
+        font-size: rem;
         width: 100%;
         height: auto;
-        margin: 10px 0;
         text-align: center;
     }
 
@@ -329,6 +349,7 @@ form button:hover {
 @media (max-width: 768px) {
     .wrapper {
         display: block;
+        grid-template-columns:;
         width: 95%;
         margin: 20px auto;
     }
