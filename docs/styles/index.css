@@ -12,10 +12,9 @@
 .contactCard {
     display: grid;
     width: 100%;
-    max-width: 350px;
-    min-width: 200px;
-    min-height: 350px;
-    max-height: 550px;
+    width: 450px;
+    height: 650px;
+    position: fixed;
     background-color: rgb(218, 218, 218);
     border-radius: 35px;
     justify-content: center;
@@ -29,7 +28,7 @@
 }
 
 .contactCard p {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .myPhoto {
@@ -42,7 +41,7 @@
 }
 
 .contact-button {
-    font-size: 2rem;
+    font-size: 2.25rem;
     width: 90%;
     height: 80px;
     margin-left: 15px;
@@ -67,8 +66,8 @@
 }
 
 .socialIcons {
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
     margin: 10px;
 }
 
@@ -218,7 +217,7 @@ form button:hover {
 /* ----------- Media Queries ----------- */
 
 /* Tablets and above (>= 769px) */
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .wrapper {
         display: grid;
         grid-template-columns: 10% 90%;
