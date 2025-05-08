@@ -7,10 +7,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(135deg, #3f51b5, #a1c4fd);
-    display: block;
     height: auto;
-    gap: 20px;
     overflow-x: hidden;
+    padding: 0;
 }
 
 h2, h3 {
@@ -71,7 +70,6 @@ h3 {
     }
 
     body {
-        gap: 12px;
         padding: 12px;
     }
 
@@ -89,7 +87,6 @@ h3 {
     }
 
     body {
-        gap: 10px;
         padding: 10px;
     }
 }
