@@ -220,11 +220,11 @@ form button:hover {
 @media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
     .wrapper {
         display: grid;
-        grid-template-columns: 5% 95%;
+        grid-template-columns: 15% 85%;
         column-gap: 1em;
         align-items: start;
         justify-content: center;
-        width: 90%;
+        width: 100%;
         max-width: 2000px;
         margin: 60px auto;
     }
@@ -234,20 +234,20 @@ form button:hover {
         left: 30px;
         bottom: 120px;
         top: 50px;
-        width: 325px;
-        height: 425px;
+        width: 300px;
+        height: 400px;
         font-size: 1em;
         margin-top: 50px;
         margin-bottom: 80px;
     }
 
     .contactCard p {
-        font-size: 2em;
+        font-size: 1.75em;
     }
 
     .myPhoto {
-        width: 60%;
-        height: 80%;
+        width: 50%;
+        height: 60%;
         margin-left: 50px;
     }
 
@@ -320,7 +320,6 @@ form button:hover {
 @media (max-width: 1024px) and (orientation: portrait) {
     .wrapper {
         display: block;
-        grid-template-columns:;
         width: 95%;
         margin: 20px auto;
     }
@@ -347,8 +346,7 @@ form button:hover {
     .contactCard {
         position: static;
         margin: 0 auto 30px auto;
-        max-width: 90%;
-        width: 100%;
+        width: 90%;
         z-index: 100;
     }
 
@@ -386,7 +384,6 @@ form button:hover {
 @media (max-width: 768px) {
     .wrapper {
         display: block;
-        grid-template-columns:;
         width: 95%;
         margin: 20px auto;
     }
