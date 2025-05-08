@@ -1,6 +1,6 @@
 .wrapper {
     display: grid;
-    grid-template-columns: 5% 95%;
+    grid-template-columns: 1fr 4fr;
     column-gap: 1em;
     align-items: start;
     justify-content: center;
@@ -217,10 +217,10 @@ form button:hover {
 /* ----------- Media Queries ----------- */
 
 /* Tablets and above (>= 769px) */
-@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+@media (min-width: 769px) and (max-width: 1400px) and (orientation: landscape){
     .wrapper {
         display: grid;
-        grid-template-columns: 20% 80%;
+        grid-template-columns: 25% 75%;
         column-gap: 1em;
         align-items: start;
         justify-content: center;
@@ -231,8 +231,8 @@ form button:hover {
 
     .contactCard {
         position: relative;
-        justify-self: center;
-        align-self: center;
+        justify-self: start;
+        margin-left: 15px;
         width: 225px;
         height: 375px;
         font-size: 1em;
