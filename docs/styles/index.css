@@ -221,28 +221,23 @@ form button:hover {
 /* Tablets (≤ 768px) */
 @media (max-width: 1024px) {
     .wrapper {
-        display: grid;
-        grid-template-columns: 10% 90%;
-        width: 90%;
-        margin: 40px auto;
+        display: block;
+        width: 95%;
+        margin: auto;
     }
 
     .contactCard {
-        position: fixed;
-        margin-right: 30px;
-        margin-left: 20px;
-        max-width: 90%;
+        position: static;
+        margin: 20px auto;
+        max-width: 300px;
+        min-height: auto;
         bottom: 50px;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .contentContainer {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
         margin-left: 0;
         margin-bottom: 30px;
-        gap: 20px;
     }
 
     .contentContainer p {
