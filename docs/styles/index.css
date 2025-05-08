@@ -226,15 +226,16 @@ form button:hover {
         justify-content: center;
         width: 100%;
         max-width: 2000px;
-        margin: auto;
+        margin: 30px auto;
     }
 
     .contactCard {
         position: relative;
-        justify-self: start;
+        justify-self: center;
+        align-self: center;
         margin-left: 15px;
-        width: 225px;
-        height: 375px;
+        width: 250px;
+        height: 400px;
         font-size: 1em;
         padding: 10px;
     }
@@ -246,7 +247,7 @@ form button:hover {
     .myPhoto {
         width: 55%;
         height: auto;
-        margin-left: 0;
+        margin-left: 30px;
     }
 
     .contact-button {
