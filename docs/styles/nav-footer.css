@@ -84,11 +84,11 @@ footer a:hover {
 
 /* ----------- Media Queries ----------- */
 
-/* Tablets (768px and below) */
-@media (max-width: 768px) {
+/* Tablets */
+@media (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
     .site-title {
         font-size: 2.25rem;
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     nav {
@@ -122,6 +122,66 @@ footer a:hover {
         text-align: center;
         flex: unset;
     }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+    .main-header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-title {
+    font-size: 2rem;
+    margin-left: 0;
+    text-align: center;
+}
+
+nav {
+    justify-content: center;
+    font-size: 1.25rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.nav-links {
+    margin: 10px;
+    white-space: nowrap;
+}
+
+footer {
+    font-size: 14px;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-content {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left-footer,
+.right-footer,
+.center-footer {
+    text-align: center;
+    flex: unset;
+}
+
+footer a {
+    margin: 10px;
+    color: black;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+footer a:hover {
+    transform: scale(1.15);
+}
 }
 
 /* Phones (480px and below) */

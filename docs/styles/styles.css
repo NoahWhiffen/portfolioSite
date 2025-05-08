@@ -9,7 +9,6 @@ body {
     background: linear-gradient(135deg, #3f51b5, #a1c4fd);
     height: auto;
     overflow-x: hidden;
-    padding: 0;
 }
 
 h2, h3 {
@@ -41,7 +40,7 @@ h3 {
 /* ----------- Media Queries ----------- */
 
 /* Tablets (768px and below) */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     h2 {
         font-size: 42px;
     }
@@ -58,7 +57,7 @@ h3 {
     }
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 1024px) and (orientation: portrait) {
     h2 {
         font-size: 38px;
         margin-top: 20px;

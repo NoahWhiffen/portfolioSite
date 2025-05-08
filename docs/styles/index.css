@@ -262,8 +262,9 @@ form button:hover {
         gap: 20px;
         margin-top: 20px;
         justify-items: center;
-        margin-left: 40%;
+        margin-left: 0;
         margin-bottom: 30px;
+        width: 100%;
     }
 
     .contentContainer p {
@@ -339,7 +340,7 @@ form button:hover {
         padding: 20px;
         border: 1px solid #888;
         width: 80%;
-        max-width: 500px;
+        max-width: 400px;
         z-index: 10000 !important;
     }
 
@@ -360,7 +361,7 @@ form button:hover {
     }
 
     .contentContainer p {
-        font-size: 1.2rem;
+        font-size: 1.75rem;
         width: 100%;
         height: auto;
         margin: 0 0 20px 0;
@@ -375,7 +376,7 @@ form button:hover {
     }
 
     .icon-images {
-        width: 90%;
+        width: 80%;
         padding: 10px;
     }
 }
