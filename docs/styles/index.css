@@ -231,10 +231,11 @@ form button:hover {
 
     .contactCard {
         position: fixed;
-        left: 30px;
+        left: 50px;
         top: 50px;
-        width: 300px;
-        height: 450px;
+        bottom: 40px;
+        width: 275px;
+        height: 425px;
         font-size: 1em;
         padding: 10px;
         
