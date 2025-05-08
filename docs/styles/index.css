@@ -231,14 +231,14 @@ form button:hover {
 
     .contactCard {
         position: fixed;
-        left: 50px;
+        left: 70px;
         top: 50px;
         bottom: 40px;
-        width: 275px;
-        height: 425px;
+        width: 245px;
+        height: 400px;
         font-size: 1em;
         padding: 10px;
-        
+        margin-bottom: 50px;
     }
 
     .contactCard p {
@@ -441,12 +441,12 @@ form button:hover {
         gap: 10px;
         margin-left: 0;
         margin-top: 20px;
+        margin-bottom: 10px;
     }
 
     .contentContainer p {
         font-size: 1.5rem;
         width: 100%;
-        height: auto;
     }
 
     .icon-container {
