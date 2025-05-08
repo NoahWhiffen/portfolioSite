@@ -231,12 +231,13 @@ form button:hover {
 
     .contactCard {
         position: fixed;
-        left: 20px;
-        top: 30px;
-        width: 250px;
-        height: 350px;
-        font-size: 0.9em;
+        left: 30px;
+        top: 40px;
+        width: 300px;
+        height: 500px;
+        font-size: 1em;
         padding: 10px;
+        
     }
 
     .contactCard p {
@@ -244,14 +245,14 @@ form button:hover {
     }
 
     .myPhoto {
-        width: 45%;
+        width: 55%;
         height: auto;
         margin-left: 0;
     }
 
     .contact-button {
         font-size: 1.25rem;
-        height: 45px;
+        height: 55px;
     }
 
     .contentContainer {
@@ -421,8 +422,8 @@ form button:hover {
     }
 
     .myPhoto {
-        width: 70%;
-        height: auto;
+        width: 60%;
+        height: 60%;
         margin: 0 auto 15px;
     }
 
@@ -441,7 +442,7 @@ form button:hover {
     }
 
     .contentContainer p {
-        font-size: 1.2rem;
+        font-size: 2rem;
         width: 100%;
         height: auto;
         margin: 0 0 20px 0;
