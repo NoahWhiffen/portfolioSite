@@ -231,29 +231,27 @@ form button:hover {
 
     .contactCard {
         position: fixed;
-        left: 30px;
-        bottom: 120px;
-        top: 50px;
-        width: 300px;
-        height: 400px;
-        font-size: 1em;
-        margin-top: 50px;
-        margin-bottom: 80px;
+        left: 20px;
+        top: 30px;
+        width: 250px;
+        height: 350px;
+        font-size: 0.9em;
+        padding: 10px;
     }
 
     .contactCard p {
-        font-size: 1.75em;
+        font-size: 1.25em;
     }
 
     .myPhoto {
-        width: 50%;
-        height: 60%;
-        margin-left: 50px;
+        width: 45%;
+        height: auto;
+        margin-left: 0;
     }
 
     .contact-button {
-        font-size: 1.5rem;
-        height: 50px;
+        font-size: 1.25rem;
+        height: 45px;
     }
 
     .contentContainer {
@@ -407,12 +405,30 @@ form button:hover {
         z-index: 10000 !important;
     }
 
-    .contactCard {
+ .contactCard {
         position: static;
         margin: 0 auto 30px auto;
-        max-width: 90%;
-        width: 100%;
+        width: 95%;
+        max-width: 375px;
+        height: auto;
+        font-size: 1rem;
+        padding: 15px;
         z-index: 100;
+    }
+
+    .contactCard p {
+        font-size: 1.4rem;
+    }
+
+    .myPhoto {
+        width: 70%;
+        height: auto;
+        margin: 0 auto 15px;
+    }
+
+    .contact-button {
+        font-size: 1.5rem;
+        height: 55px;
     }
 
     .contentContainer {
