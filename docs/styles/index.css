@@ -225,17 +225,18 @@ form button:hover {
         align-items: start;
         justify-content: center;
         width: 100%;
-        max-width: 2000px;
         margin: 30px auto;
     }
 
     .contactCard {
-        position: relative;
+        position: fixed;
         justify-self: center;
         align-self: center;
-        margin-left: 45px;
-        width: 250px;
-        height: 400px;
+        margin-left: 150px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 300px;
+        height: 450px;
         font-size: 1em;
         padding: 10px;
     }
@@ -319,7 +320,7 @@ form button:hover {
 @media (max-width: 1024px) and (orientation: portrait) {
     .wrapper {
         display: block;
-        width: 95%;
+        width: 100%;
         margin: 20px auto;
     }
 
