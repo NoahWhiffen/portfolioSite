@@ -216,6 +216,31 @@ form button:hover {
 
 /* ----------- Media Queries ----------- */
 
+/* Laptop */
+@media (min-width: 1025px) and (max-width: 1400px) {
+    .contactCard {
+        width: 350px;
+        height: 550px;
+        font-size: 1.25em;
+        padding: 10px;
+    }
+
+    .contactCard p {
+        font-size: 2rem;
+    }
+
+    .myPhoto {
+        width: 75%;
+        height: 75%;
+        margin-left: 30px;
+    }
+
+    .contact-button {
+        font-size: 1.75rem;
+        height: 60px;
+    }
+}
+
 /* Tablets and above (>= 769px) */
 @media (min-width: 769px) and (max-width: 1400px) and (orientation: landscape){
     .wrapper {
