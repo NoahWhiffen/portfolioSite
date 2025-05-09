@@ -438,7 +438,7 @@ form button:hover {
  .contactCard {
         position: static;
         margin: 0 auto 30px auto;
-        width: 95%;
+        width: 100%;
         max-width: 375px;
         height: auto;
         font-size: 1rem;
@@ -447,7 +447,7 @@ form button:hover {
     }
 
     .contactCard p {
-        font-size: 2rem;
+        font-size: 1.9rem;
         margin: 5px;
     }
 
