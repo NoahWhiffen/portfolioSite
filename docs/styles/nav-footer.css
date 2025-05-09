@@ -119,8 +119,15 @@ footer a:hover {
     .left-footer,
     .right-footer,
     .center-footer {
-        text-align: center;
         flex: unset;
+    }
+
+    .left-footer {
+        text-align: left;
+    }
+
+    .right-footer {
+        text-align: right;
     }
 }
 
