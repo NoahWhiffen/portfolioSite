@@ -87,13 +87,23 @@ footer a:hover {
 /* Tablets */
 @media (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
     .site-title {
-        font-size: 2.25rem;
+        font-size: 2.5rem;
         margin-left: 20px;
+        text-align: left;
+    }
+
+    .main-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 75px;
     }
 
     nav {
         font-size: 1.5rem;
-        justify-content: center;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+
         width: 100%;
         gap: 10px;
     }
@@ -105,7 +115,9 @@ footer a:hover {
 
     footer {
         font-size: 14px;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         height: auto;
         text-align: center;
         padding: 10px;
@@ -116,18 +128,18 @@ footer a:hover {
         gap: 10px;
     }
 
-    .left-footer,
-    .right-footer,
-    .center-footer {
-        flex: unset;
-    }
-
     .left-footer {
         text-align: left;
+        flex: 1;
+    }
+
+    .center-footer {
+        flex: 2;
     }
 
     .right-footer {
         text-align: right;
+        flex: 1;
     }
 }
 
