@@ -219,8 +219,8 @@ form button:hover {
 /* Laptop */
 @media (min-width: 1025px) and (max-width: 1600px) {
     .contactCard {
-        width: 275px;
-        height: 450px;
+        width: 325px;
+        height: 550px;
         font-size: 1.25em;
         padding: 10px;
     }
@@ -261,7 +261,6 @@ form button:hover {
         margin-top: 20px;
         width: 325px;
         height: 475px;
-        top: 15px;
         bottom: 30px;
         font-size: 1em;
         padding: 10px;

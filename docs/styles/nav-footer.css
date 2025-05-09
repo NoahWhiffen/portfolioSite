@@ -87,7 +87,7 @@ footer a:hover {
 /* Tablets */
 @media (min-width: 769px) and (max-width: 1400px) and (orientation: landscape) {
     .site-title {
-        font-size: 2rem;
+        font-size: 2em;
         margin-left: 80px;
         text-align: left;
     }
@@ -100,7 +100,7 @@ footer a:hover {
     }
 
     nav {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         justify-content: flex-end;
         flex-wrap: nowrap;
         width: auto;
