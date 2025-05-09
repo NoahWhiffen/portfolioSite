@@ -156,7 +156,7 @@ form button:hover {
     font-family: 'Space Mono', sans-serif;
     font-size: 32px;
     width: 50vw;
-    height: 250px;
+    height: auto;
     text-align: center;
     grid-column: 2;
     color: white;
