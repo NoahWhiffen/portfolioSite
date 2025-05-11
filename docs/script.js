@@ -9,8 +9,9 @@ function closeModal() {
     if (modal) modal.style.display = "none";
 }
 
+// Contact Form functionality
 document.addEventListener("DOMContentLoaded", function () {
-    // === Modal functionality ===
+    
     const contactModal = document.getElementById("contactModal");
     const contactForm = document.getElementById("contactForm");
     const contactButton = document.querySelector(".contact-button");
@@ -42,25 +43,6 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Thank you for reaching out! Your message has been sent.");
         });
     }
-
-    // === Scroll Button functionality ===
-    document.querySelectorAll('.scrollButton.left').forEach(button => {
-        button.addEventListener('click', () => {
-            const sectionId = button.closest('section')?.querySelector('.appWrapper')?.id;
-            if (sectionId) {
-                scrollSectionLeft(sectionId);
-            }
-        });
-    });
-
-    document.querySelectorAll('.scrollButton.right').forEach(button => {
-        button.addEventListener('click', () => {
-            const sectionId = button.closest('section')?.querySelector('.appWrapper')?.id;
-            if (sectionId) {
-                scrollSectionRight(sectionId);
-            }
-        });
-    });
 });
 
 // === Scroll Handlers (Global Scope) ===
