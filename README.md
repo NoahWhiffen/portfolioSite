@@ -32,8 +32,7 @@ This is a personal portfolio site created as the final sprint project for my sec
 
 ## 📌 Future Improvements
 
-- Improve responsive layout across all screen sizes
-- Add "About Me" info
+- Migrate site to React
 - Add a game (probably Snake or Pong)
 - Refine accessibility and navigation
 
@@ -41,6 +40,6 @@ This is a personal portfolio site created as the final sprint project for my sec
 
 ## 🛠️ Technologies Used
 
-- HTML / CSS / JavaScript
+- HTML / CSS / JavaScript / Node
 
 ---
