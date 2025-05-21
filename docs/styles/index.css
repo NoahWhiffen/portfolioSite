@@ -259,7 +259,7 @@ form button:hover {
         position: fixed;
         margin-left: 150px;
         margin-top: 20px;
-        width: 300px;
+        width: 350px;
         height: 400px;
         top: 75px;
         font-size: 1em;
@@ -267,7 +267,7 @@ form button:hover {
     }
 
     .contactCard p {
-        font-size: 1.5em;
+        font-size: 1.75em;
     }
 
     .myPhoto {
@@ -284,7 +284,7 @@ form button:hover {
     .socialIcons {
     width: 35px;
     height: 35px;
-    margin: 5px;
+    margin: 10px;
 }
 
     .contentContainer {
