@@ -157,7 +157,7 @@ form button:hover {
     font-size: 32px;
     width: 50vw;
     height: auto;
-    text-align: center;
+    text-align: left;
     grid-column: 2;
     color: white;
 }
