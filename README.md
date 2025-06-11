@@ -25,8 +25,7 @@ This is a personal portfolio site created as the final sprint project for my sec
 
 ## ⚠️ Known Issues
 
-- Some formatting issues may appear on various screen sizes (notably laptops and tablets)
-- Certain features and pages are still under development
+- None Currently
 
 ---
 
@@ -34,7 +33,7 @@ This is a personal portfolio site created as the final sprint project for my sec
 
 - Migrate site to React
 - Add a game (probably Snake or Pong)
-- Refine accessibility and navigation
+- Reorganize skills section by language, tools, databases, etc.
 
 ---
 
